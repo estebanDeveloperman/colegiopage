@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/colegiopage/static/css/main.ec6e740c.css",
-    "main.js": "/colegiopage/static/js/main.aabd8ef2.js",
-    "static/js/787.f9a68459.chunk.js": "/colegiopage/static/js/787.f9a68459.chunk.js",
+    "main.css": "/colegiopage/static/css/main.8737cda6.css",
+    "main.js": "/colegiopage/static/js/main.a32f0fa6.js",
     "static/media/bg_colegio2.png": "/colegiopage/static/media/bg_colegio2.c43ebaa5b9aebaa9eeb2.png",
     "static/media/seccion_nosotros.jpg": "/colegiopage/static/media/seccion_nosotros.cfc5cf5d003fde8273dc.jpg",
     "static/media/marzo_1.jpg": "/colegiopage/static/media/marzo_1.db70fdaf7f516572585a.jpg",
     "static/media/febrero_1.jpg": "/colegiopage/static/media/febrero_1.d5f5e44797307ea9cfa9.jpg",
     "static/media/logo_colegio.jpg": "/colegiopage/static/media/logo_colegio.54f9a6b723aced734a30.jpg",
     "index.html": "/colegiopage/index.html",
-    "main.ec6e740c.css.map": "/colegiopage/static/css/main.ec6e740c.css.map",
-    "main.aabd8ef2.js.map": "/colegiopage/static/js/main.aabd8ef2.js.map",
-    "787.f9a68459.chunk.js.map": "/colegiopage/static/js/787.f9a68459.chunk.js.map"
+    "main.8737cda6.css.map": "/colegiopage/static/css/main.8737cda6.css.map",
+    "main.a32f0fa6.js.map": "/colegiopage/static/js/main.a32f0fa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec6e740c.css",
-    "static/js/main.aabd8ef2.js"
+    "static/css/main.8737cda6.css",
+    "static/js/main.a32f0fa6.js"
   ]
 }
