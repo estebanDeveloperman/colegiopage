@@ -15,6 +15,11 @@ import Contact from "./pages/Contact/Contact";
 import logoColegio from "./utils/assets/logo_colegio.jpg";
 
 function App() {
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       {/* Navbar */}
@@ -45,19 +50,39 @@ function App() {
           />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto justify-content-end w-100">
-              <Nav.Link href="#inicio" className="text-uppercase">
+              <Nav.Link
+                as="button"
+                onClick={() => scrollTo("inicio")}
+                className="text-uppercase btn btn-link"
+              >
                 Inicio
               </Nav.Link>
-              <Nav.Link href="#nosotros" className="text-uppercase">
+              <Nav.Link
+                as="button"
+                onClick={() => scrollTo("nosotros")}
+                className="text-uppercase btn btn-link"
+              >
                 Nosotros
               </Nav.Link>
-              <Nav.Link href="#misionvision" className="text-uppercase">
+              <Nav.Link
+                as="button"
+                onClick={() => scrollTo("misionvision")}
+                className="text-uppercase btn btn-link"
+              >
                 Visión / Misión
               </Nav.Link>
-              <Nav.Link href="#himno" className="text-uppercase">
+              <Nav.Link
+                as="button"
+                onClick={() => scrollTo("himno")}
+                className="text-uppercase btn btn-link"
+              >
                 Himno
               </Nav.Link>
-              <Nav.Link href="#comunicados" className="text-uppercase">
+              <Nav.Link
+                as="button"
+                onClick={() => scrollTo("comunicados")}
+                className="text-uppercase btn btn-link"
+              >
                 Comunicados
               </Nav.Link>
             </Nav>
@@ -175,15 +200,15 @@ function App() {
                   <ul className="footer-navigation list-unstyled mb-0">
                     <li>
                       <a
-                        href="#inicio"
-                        className="text-decoration-none text-danger text-uppercase fw-semibold"
+                        onClick={() => scrollTo("inicio")}
+                        className="cursor-pointer text-decoration-none text-danger text-uppercase fw-semibold"
                       >
                         Inicio
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#nosotros"
+                        onClick={() => scrollTo("nosotros")}
                         className="text-decoration-none text-danger text-uppercase fw-semibold"
                       >
                         Nosotros
@@ -191,7 +216,7 @@ function App() {
                     </li>
                     <li>
                       <a
-                        href="#misionvision"
+                        onClick={() => scrollTo("misionvision")}
                         className="text-decoration-none text-danger text-uppercase fw-semibold"
                       >
                         Visión/Misión
@@ -199,7 +224,7 @@ function App() {
                     </li>
                     <li>
                       <a
-                        href="#himno"
+                        onClick={() => scrollTo("himno")}
                         className="text-decoration-none text-danger text-uppercase fw-semibold"
                       >
                         Himno
@@ -207,7 +232,7 @@ function App() {
                     </li>
                     <li>
                       <a
-                        href="#comunicados"
+                        onClick={() => scrollTo("comunicados")}
                         className="text-decoration-none text-danger text-uppercase fw-semibold"
                       >
                         Comunicados

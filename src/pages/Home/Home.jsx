@@ -11,6 +11,12 @@ import ComunicadosSection from '../../components/ComunicadosSection/ComunicadosS
 
 
 function Home() {
+    const scrollTo = (id) => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      };
+    
+
     return (
         <div className='home-page'>
             <header id="inicio" className='h-100 min-vh-100 d-flex align-items-center text-light'>
@@ -18,12 +24,12 @@ function Home() {
                     <h2>Bienvenidos</h2>
                     <h1 className='text-center fw-semibold'>I.E. Juana Alarco de Dammert</h1>
                     <div className="d-flex flex-column flex-sm-row align-items-center">
-                        <a href="#comunicados">
+                        <a onClick={() => scrollTo("comunicados")}>
                             <button type="button" className="btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0">
                                 Comunicados
                             </button>
                         </a>
-                        <a href="#contact">
+                        <a onClick={() => scrollTo("contact")}>
                             <button type="button" className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0">
                                 Contacto
                             </button>
