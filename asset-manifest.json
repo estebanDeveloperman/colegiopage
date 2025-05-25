@@ -1,18 +1,36 @@
 {
   "files": {
-    "main.css": "/colegiopage/static/css/main.8737cda6.css",
-    "main.js": "/colegiopage/static/js/main.08d5876c.js",
+    "main.css": "/colegiopage/static/css/main.d7439316.css",
+    "main.js": "/colegiopage/static/js/main.7af63f0a.js",
+    "static/media/foto3.jpg": "/colegiopage/static/media/foto3.dfd3d4c62f8714686b45.jpg",
+    "static/media/foto10.jpg": "/colegiopage/static/media/foto10.8edc63357947e54571ba.jpg",
+    "static/media/foto4.jpg": "/colegiopage/static/media/foto4.8d8d8ae8580ed7be7e0a.jpg",
+    "static/media/foto8.jpg": "/colegiopage/static/media/foto8.0e0234923f9cc0fb7c67.jpg",
+    "static/media/foto9.jpg": "/colegiopage/static/media/foto9.907c4293cc7a3a2f1237.jpg",
+    "static/media/foto12.jpg": "/colegiopage/static/media/foto12.b59d86eee9af5516b445.jpg",
+    "static/media/foto11.jpg": "/colegiopage/static/media/foto11.17b92f4a68b21470d147.jpg",
+    "static/media/foto5.jpg": "/colegiopage/static/media/foto5.f4fe1b1a6212862823c5.jpg",
+    "static/media/foto13.jpg": "/colegiopage/static/media/foto13.a7e2d3878a4e7b70303f.jpg",
+    "static/media/foto6.jpg": "/colegiopage/static/media/foto6.ee4e15ad96a5a1b19932.jpg",
+    "static/media/foto7.jpg": "/colegiopage/static/media/foto7.26995603935fa0757818.jpg",
     "static/media/bg_colegio2.png": "/colegiopage/static/media/bg_colegio2.c43ebaa5b9aebaa9eeb2.png",
     "static/media/seccion_nosotros.jpg": "/colegiopage/static/media/seccion_nosotros.cfc5cf5d003fde8273dc.jpg",
+    "static/media/foto1.jpg": "/colegiopage/static/media/foto1.489b29c470c71ba4a144.jpg",
+    "static/media/foto2.jpg": "/colegiopage/static/media/foto2.0a7717d81d0b14626b9c.jpg",
     "static/media/marzo_1.jpg": "/colegiopage/static/media/marzo_1.db70fdaf7f516572585a.jpg",
     "static/media/febrero_1.jpg": "/colegiopage/static/media/febrero_1.d5f5e44797307ea9cfa9.jpg",
+    "static/media/seccion_nosotros2.jpg": "/colegiopage/static/media/seccion_nosotros2.b1c4dbbd123951c3e9a9.jpg",
     "static/media/logo_colegio.jpg": "/colegiopage/static/media/logo_colegio.54f9a6b723aced734a30.jpg",
+    "static/media/slick.svg": "/colegiopage/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/colegiopage/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/colegiopage/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/colegiopage/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/colegiopage/index.html",
-    "main.8737cda6.css.map": "/colegiopage/static/css/main.8737cda6.css.map",
-    "main.08d5876c.js.map": "/colegiopage/static/js/main.08d5876c.js.map"
+    "main.d7439316.css.map": "/colegiopage/static/css/main.d7439316.css.map",
+    "main.7af63f0a.js.map": "/colegiopage/static/js/main.7af63f0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8737cda6.css",
-    "static/js/main.08d5876c.js"
+    "static/css/main.d7439316.css",
+    "static/js/main.7af63f0a.js"
   ]
 }
