@@ -3,19 +3,20 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import NosotrosImg from '../../utils/assets/seccion_nosotros.jpg';
+import NosotrosImg2 from "../../utils/assets/seccion_nosotros2.jpg"
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 import HimnoSection from '../../components/HimnoSection/HimnoSection';
 import { Card } from 'react-bootstrap';
 import ComunicadosSection from '../../components/ComunicadosSection/ComunicadosSection';
-
-
+import CarruselSection from '../../components/CarruselSection/CarruselSection';
+import VideosSection from '../../components/VideosSection/VideosSection';
 
 function Home() {
     const scrollTo = (id) => {
         const el = document.getElementById(id);
         if (el) el.scrollIntoView({ behavior: "smooth" });
-      };
-    
+    };
+
 
     return (
         <div className='home-page'>
@@ -64,7 +65,7 @@ function Home() {
                         {/* Imagen */}
                         <div className="col-12 col-lg-5 mt-5 mt-lg-0 text-center">
                             <img
-                                src={NosotrosImg}
+                                src={NosotrosImg2}
                                 className="img-fluid rounded-4 shadow-sm"
                                 alt="Fachada I.E. Juana Alarco de Dammert"
                             />
@@ -73,17 +74,25 @@ function Home() {
                 </div>
             </div>
 
-            <div id="misionvision" className="py-2">
+            <div id="carrusel" className=''>
+                <CarruselSection />
+            </div>
+
+            <div id="misionvision" className="">
                 <ChooseSection />
             </div>
 
 
-            <div id="himno" className="py-2">
+            <div id="himno" className="">
                 <HimnoSection />
             </div>
 
-            <div id="comunicados" className='py-2'>
+            <div id="comunicados" className=''>
                 <ComunicadosSection />
+            </div>
+
+            <div id="videos">
+                <VideosSection />
             </div>
 
         </div>
