@@ -1,10 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import video1 from '../../utils/videos/video1.mp4';
-import video2 from '../../utils/videos/video2.mp4';
 
-// Array de videos
-const videos = [video1, video2];
+// URLs de videos remotos
+const videos = [
+    'https://storage.googleapis.com/la_liga_files/colegio/video1.mp4',
+    'https://storage.googleapis.com/la_liga_files/colegio/video2.mp4',
+];
 
 const VideosSection = () => {
     const videoRefs = useRef([]);
